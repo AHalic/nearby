@@ -1,13 +1,13 @@
 import { View, Text } from "react-native";
 
-import { style } from "./styles";
+import { styles } from "./styles";
 import Step from "../step";
 import { IconMapPin, IconQrcode, IconTicket } from "@tabler/icons-react-native";
 
 export default function Steps() {
     return (
-        <View style={style.container}>
-            <Text style={style.title}>
+        <View style={styles.container}>
+            <Text style={styles.title}>
                 How it works:
             </Text>
 

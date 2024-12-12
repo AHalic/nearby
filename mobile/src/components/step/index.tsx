@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import { IconProps } from "@tabler/icons-react-native";
 
-import { style } from "./styles";
+import { styles } from "./styles";
 import { ComponentType } from "react";
 import { colors } from "@/styles/colors";
 
@@ -12,17 +12,17 @@ export default function Step({ title, description, icon: Icon }:
     icon: ComponentType<IconProps>,
 }) {
     return (
-        <View style={style.container}>
+        <View style={styles.container}>
             
             {/* Icon */}
             {Icon && <Icon size={32} color={colors.red.base} />}
 
 
-            <View style={style.details}>
-                <Text style={style.title}> 
+            <View style={styles.details}>
+                <Text style={styles.title}> 
                     {title}    
                 </Text>
-                <Text style={style.description}>
+                <Text style={styles.description}>
                     {description}
                 </Text>
             </View>

@@ -1,18 +1,18 @@
 import { Image, Text, View } from "react-native";
 
-import { style } from "./styles";
+import { styles } from "./styles";
 
 export default function Welcome() {
     return (
         <View>
             <Image
                 source={require("@/assets/logo.png")}
-                style={style.logo}
+                style={styles.logo}
             />
 
-            <Text style={style.title}>Welcome to Nearby!</Text>
+            <Text style={styles.title}>Welcome to Nearby!</Text>
 
-            <Text style={style.subtitle}>
+            <Text style={styles.subtitle}>
                 Get advantage coupons to use in your favorite establishments.
             </Text>
         </View>
