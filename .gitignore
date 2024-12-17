@@ -2,6 +2,11 @@
 
 # dependencies
 node_modules/
+.env
+
+# build
+*.db
+migrations/
 
 # Expo
 .expo/
