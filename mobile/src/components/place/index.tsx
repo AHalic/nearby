@@ -8,9 +8,13 @@ export type PlaceProps = {
     name: string
     description: string
     coupons: number
-    image: string
     cover: string
+    phone: string
     address: string
+    rules: {
+        id: string
+        description: string
+    }[]
 }
 
 
@@ -19,7 +23,6 @@ export default function Place({
     name,
     description,
     coupons,
-    image,
     cover,
     address,
     ...props
@@ -35,7 +38,7 @@ export default function Place({
                 <Text style={styles.name}>
                     {name}
                 </Text>
-                <Text style={styles.description}>
+                <Text style={styles.description} numberOfLines={2}>
                     {description}
                 </Text>
 
