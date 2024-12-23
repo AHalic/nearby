@@ -17,8 +17,10 @@ The database is seeded with sample data, featuring establishments located in Sã
 Below is a screen recording of the app in action, showcasing its features and functionality:
 
 <p align="center">
-  <img alt="App Demo" src="/docs/test.gif" width="40%">
+  <img alt="App Demo" src="/docs/test.gif" width="30%">
 </p>
+
+The app's design is based on a layout available in [Figma](https://www.figma.com/community/file/1448070647757721748).
 
 
 ## Setup
